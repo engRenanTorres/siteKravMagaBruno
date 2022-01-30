@@ -1,2 +1,2 @@
 # siteKravMagaBruno
-Site para promover a equipe de Krav Maga do Bruno Meirelles
+Site responsivo para treinar o html e o css e promover a equipe de Krav Maga de um grande amigo.

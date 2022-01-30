@@ -4,8 +4,12 @@
     align-items: center;
 }
 .titulo{
-    color: black;
-    position: absolute;
+    background-color: black;
+    color: var(--branco);
+    top: -40px;
+    position: relative;
+    padding: 5px;
+    border-radius: 20px;
 }
 .principal__inicio {
     display: flex;
@@ -20,4 +24,26 @@
 }
 .imagem_de_fundo{
     width: 100vw;
+}
+.contato__maps{
+    width: 75vw;
+    height: auto;
+}
+.principal__equipe{
+    width: 75vw;
+}
+.imagem-de-perfis{
+    width: 100px;
+    height: auto;
+    
+}
+.nome-membro-equipe{
+    color: var(--branco);
+}
+.descricao-membro-equipe{
+    color: var(--branco);
+    flex-wrap: wrap;
+}
+.cartao-individual{
+    display: flex;
 }
