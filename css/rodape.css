@@ -1,0 +1,14 @@
+.rodape{
+    background-color: var(--branco);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    
+}
+.rodape__linksExternos {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

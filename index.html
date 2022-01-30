@@ -7,29 +7,51 @@
         <link href="css/reset.css" rel="stylesheet">
         <link href="css/base.css" rel="stylesheet">
         <link href="css/cabecalho.css" rel="stylesheet">
+        <link href="css/principal.css" rel="stylesheet">
+        <link href="css/rodape.css" rel="stylesheet">
     </head>
     <body>
         <header class="cabecalho">
             <img class="cabecalho__logo" src="assets/images/sinistro.png" alt="Logotipo Sinistro Krav Maga">
             <button class="cabecalho__menu" aria-label="Menu"><i></i></button>
         </header>
-        <nav class="menu__lateral">
-            <ul class="cabecalho__links">
-                <li class="cabecalho__links__conteudo"><a href="#"></a>Início</li>
-                <li class="cabecalho__links__conteudo"><a href="#"></a>Time</li>
-                <li class="cabecalho__links__conteudo"><a href="#"></a>Galeria</li>
-                <li class="cabecalho__links__conteudo"><a href="#"></a>Contato</li>
+        <nav class="menu-aba">
+            <ul class="menu-aba__links">
+                <li class="menu-aba__links__conteudo menu-aba__link--inicio menu-aba__link--ativa"><a href="#"></a>Início</li>
+                <li class="menu-aba__links__conteudo menu-aba__link--equipe"><a href="#"></a>Equipe</li>
+                <li class="menu-aba__links__conteudo menu-aba__link--galeria"><a href="#"></a>Galeria</li>
+                <li class="menu-aba__links__conteudo menu-aba__link--videos"><a href="#"></a>Vídeos</li>
+                <li class="menu-aba__links__conteudo menu-aba__link--contato"><a href="#"></a>Contato</li>
             </ul>
-            <ul class="cabecalho__linksExternos">
+
+        </nav>
+
+        <main class="principal">
+            <article class="principal__inicio">
+                <h1 class="titulo">Fonseca Krav Marga</h2>
+                <img class="imagem_de_fundo" src="assets/images/CapaKravMaga.jpg">
+            </article>
+            <article class="principal__equipe">
+                <h2 class="titulos-secudarios">Equipe</h2>
+            </article>
+            <article class="principal__galeria">
+                <h2 class="titulos-secudarios">Galeria</h2>
+            </article>
+            <article class="principal__galeria">
+                <h2 class="titulos-secudarios">videos</h2>
+                <video src="img/formacao-java.mp4" class="principal__video" controls></video>
+            </article>
+             
+             
+        </main>
+        <footer class="rodape">
+            <ul class="rodape__linksExternos">
                 <li><a href="#"><img src="assets/images/icons8-instagram.svg"></a></li>
                 <li><a href="#"><img src="assets/images/icons8-facebook-num-círculo.svg"></a></li>
                 <li><a href="#"><img src="assets/images/icons8-whatsapp.svg"></a></li>
             </ul>
-        </nav>
-        
-<!--         <main class="chamada">
-             <img class="imagem_de_fundo" src="assets/CapaKravMaga.jpg">
-        </main> -->
+        </footer>
+        <script src="index.js"></script>
         </body>
     </html>
 

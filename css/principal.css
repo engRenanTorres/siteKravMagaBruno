@@ -1,0 +1,23 @@
+.principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo{
+    color: black;
+    position: absolute;
+}
+.principal__inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+}
+.titulos-secudarios{
+    color: var(--branco);
+    justify-self: center;
+}
+.imagem_de_fundo{
+    width: 100vw;
+}
