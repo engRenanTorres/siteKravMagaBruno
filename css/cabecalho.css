@@ -14,7 +14,6 @@
     justify-content: space-between;
     padding-left: 0.75rem;
     padding-right: 0.75rem;
-    z-index: 2;
 
 }
 .cabecalho__menu i::before{
@@ -47,6 +46,7 @@
     transition: .25s;
     position: absolute;
     top: 150px;
+    z-index: 1;
 }
 
 .menu-aba__links {
